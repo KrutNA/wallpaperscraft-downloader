@@ -1,0 +1,11 @@
+[package]
+name = "wallpaperscraft-downloader"
+version = "0.2.0"
+authors = ["krutna <krutko_n_a@mail.ru>"]
+edition = "2018"
+
+[dependencies]
+select = "0.4.2"
+reqwest = "0.9.18"
+clap = "2.33.0"
+regex = "1.1.8"
