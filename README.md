@@ -30,11 +30,14 @@ Will download all images to `~/files/<tage>/<page>/<image>`.
 
 For some reasons max lenght of `<image>` name wil be not more than *100*.
 
-###### `$ wallpaperscraft-downloader -h`
+`$ wallpaperscraft-downloader -h`
+
 Shows help message, instead `-h` you can use `--help` flag.
 
-###### `$ wallpaperscraft-downloader`
+`$ wallpaperscraft-downloader`
+
 Starts downloading all images by default parameters, which you can see from *help* message.
 
-###### `$ wallpaperscraft-downloader -b 5 -e 30 --tag=animals -c 8`
+`$ wallpaperscraft-downloader -b 5 -e 30 --tag=animals -c 8`
+
 Starts downloading all images from **5th** to **30th** pages with tag **animals** in **8** threads. 
