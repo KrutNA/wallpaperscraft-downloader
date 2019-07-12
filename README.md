@@ -1,6 +1,6 @@
 ## Downloader from [wallpaperscraft](https://wallpaperscraft.ru/)
 ### Multithreaded downloader from site wallpaperscraft
-First program on **Rust**, just for leaning language.
+First program on **Rust**, just for learning language.
 ### Usage
 ```
 Wallpaperscraft downloader 0.1.0
@@ -24,7 +24,7 @@ OPTIONS:
 ### Examples
 All images downloading to `./files/<tag>/<page>/<image>` directory.
 
-For example `~/ $ ./programs/wallpaperscraft-downloader`.
+For example `~$ ./programs/wallpaperscraft-downloader`.
 
 Will download all images to `~/files/<tage>/<page>/<image>`.
 
@@ -36,7 +36,7 @@ Shows help message, instead `-h` you can use `--help` flag.
 
 `$ wallpaperscraft-downloader`
 
-Starts downloading all images by default parameters, which you can see from *help* message.
+Starts downloading all images with default parameters, which you can see from *help* message.
 
 `$ wallpaperscraft-downloader -b 5 -e 30 --tag=animals -c 8`
 
